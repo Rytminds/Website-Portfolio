@@ -91,7 +91,7 @@ h2 {
 
 h3 { font-size: 1.1rem; }
 
-p { margin: 0 0 1em; max-width: 62ch; color: var(--ink-soft); }
+p { margin: 0 0 1em; max-width: 62ch; color: var(--ink-soft); text-align: justify; }
 
 .container {
   max-width: var(--max-width);
@@ -384,6 +384,8 @@ section { padding: 96px 0; }
 @media (max-width: 640px) {
   .projects-grid { grid-template-columns: 1fr; }
 }
+
+/* text-align justify sudah diterapkan secara global pada selector p */
 
 /* =========================================================
    CONTACT
